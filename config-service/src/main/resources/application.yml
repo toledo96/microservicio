@@ -7,8 +7,10 @@
       config:
         server:
           git:
-            default-label: config-server
             uri: https://github.com/toledo96/microservicio
+            username: toledo96
+            password: contagiate01
+            default-label: config-serve
             searchPaths: config-data
     application:
       name: config-service
