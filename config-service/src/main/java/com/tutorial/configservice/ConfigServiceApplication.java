@@ -1,14 +1,13 @@
-package com.tutorial.bikeservice;
+package com.tutorial.configservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-
-public class BikeServiceApplication {
+public class ConfigServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BikeServiceApplication.class, args);
+		SpringApplication.run(ConfigServiceApplication.class, args);
 	}
 
 }
