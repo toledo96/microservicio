@@ -9,6 +9,6 @@
           git:
             default-label: config-server
             uri: https://github.com/toledo96/microservicio
-            search-paths: config-data
+            searchPaths: config-data
     application:
       name: config-service
